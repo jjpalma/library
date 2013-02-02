@@ -37,7 +37,7 @@
 <body>
 	<div id="container">
 		<div id="header">
-			<?php echo $this->Html->link( __ ('Library'), array('controller' => 'index','action' => 'library'));?>
+			<?php echo $this->Html->link( __ ('Library'), array('controller' => 'pages','action' => 'home'));?>
 		</div>
 		<div id="content">
 
